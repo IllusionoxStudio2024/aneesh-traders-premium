@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--ink:#11110f;--paper:#f3f0e9;--cream:#e8e1d5;--muted:#77736b;--line:rgba(17,17,15,.14);--accent:#b88a4a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.serif{font-family:Georgia,'Times New Roman',serif}.container{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}.display{font-size:clamp(48px,7vw,100px);line-height:.92;letter-spacing:-.055em}.section{padding:110px 0}.grid-lines{background-image:linear-gradient(to right,rgba(17,17,15,.05) 1px,transparent 1px);background-size:25% 100%}.fade-up{animation:fadeUp .8s ease both}@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}.hover-img img{transition:transform .8s cubic-bezier(.2,.7,.2,1)}.hover-img:hover img{transform:scale(1.045)}.marquee{overflow:hidden;white-space:nowrap}.marquee-track{display:inline-block;animation:marquee 28s linear infinite}@keyframes marquee{to{transform:translateX(-50%)}}.soft-shadow{box-shadow:0 24px 70px rgba(17,17,15,.12)}
